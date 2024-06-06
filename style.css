@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    background-color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.ccsticky-nav {
+    position: sticky; 
+    top: 0;
+} 
+
+nav ul {
+    list-style-type: none;
+    background-color: #000;
+    overflow: hidden;
+    margin: 0;
+    position: sticky;
+}
+
+nav ul li {
+   float: right;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    padding-left:15px ;
+    padding-top:15px ;
+    padding-bottom:15px ;
+    padding-right:15px ;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: gray;
+}
+
+nav ul h1 a {
+    float: left;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.rs-storehome .rs-shop-container.rs-shop-container-withchatandstore {
+    min-height: 248px;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.rs-shop-header-section {
+    max-width: 640px;
+    padding: 80px 0 64px;
+}
+
+.rs-shop-header, .rs-shop-subheader {
+    display: inline;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    line-height: 1.0834933333;
+}
+
+.rs-shop-header-section .rs-shop-subheader {
+    color: #6e6e73;
+}
+
+.rs-shop-container .rs-shop-chatstore-section {
+    inset-inline-end: 0;
+    position: absolute;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.rf-shop-chat-section {
+    display: flex;
+    flex-direction: row;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    line-height: 1.4285914286;
+    padding-bottom: 16px;
+    -webkit-text-size-adjust: none;
+}
+
+.rf-shop-chat-section .rf-shop-chaticon-container {
+    height: 36px;
+    padding-inline-end: 8px;
+    width: 36px;
+}
+
+img[Attributes Style] {
+    width: 35px;
+    aspect-ratio: auto 35 / 35;
+    height: 35px;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.rf-shop-chat-title {
+    font-weight: 600;
+    padding-top: 0;
+}
+
+.rf-shop-chat-content {
+    display: block;
+}
+
+.as-buttonlink {
+    color: var(--sk-body-link-color, #06c);
+    letter-spacing: inherit;
+    text-decoration: none;
+}
+
+.a11y {
+    clip: rect(1px, 1px, 1px, 1px);
+    border: 0;
+    -webkit-clip-path: inset(0 0 99.9% 99.9%);
+    clip-path: inset(0 0 99.9% 99.9%);
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.rs-shop-neareststore {
+    display: flex;
+    flex-direction: row;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    line-height: 1.4285914286;
+    padding-bottom: 10px;
+    -webkit-text-size-adjust: none;
+}
+
+.rs-shop-neareststore .as-svgicon-container {
+    height: 36px;
+    padding-inline-end: 8px;
+    width: 36px;
+}
+
+.dd-glyph-base {
+    height: 35px;
+    width: auto;
+}
+
+path[Attributes Style] {
+    d: path("m 0 0 h 25 v 35 h -25 Z");
+    fill: none;
+}
+
+path[Attributes style] {
+    d: path("m 12.4934 4.675 a 10.5617 10.5617 0 0 1 4.177 0.8275 a 10.8868 10.8868 0 0 1 5.7467 5.747 a 10.4988 10.4988 0 0 1 0.8329 4.1777 a 10.3219 10.3219 0 0 1 -0.6421 3.5951 a 10.8948 10.8948 0 0 1 -1.8669 3.2062 a 12.8406 12.8406 0 0 1 -2.9537 2.5775 c -0.984 0.6179 -1.8226 1.1843 -2.4931 1.6839 a 9.5187 9.5187 0 0 0 -1.7742 1.6788 a 6.8587 6.8587 0 0 0 -1.02 1.8034 a 6.8213 6.8213 0 0 0 -1.0278 -1.8062 a 9.8247 9.8247 0 0 0 -1.7708 -1.6742 c -0.6644 -0.4987 -1.5014 -1.0658 -2.485 -1.6834 a 12.5961 12.5961 0 0 1 -2.9617 -2.5777 a 10.99 10.99 0 0 1 -1.8636 -3.2083 a 10.3421 10.3421 0 0 1 -0.6411 -3.5951 a 10.5153 10.5153 0 0 1 0.8319 -4.1772 a 10.9669 10.9669 0 0 1 2.3209 -3.4333 a 10.85 10.85 0 0 1 3.4278 -2.3142 a 10.52 10.52 0 0 1 4.1628 -0.8275 m 0 -1 a 11.4634 11.4634 0 0 0 -4.5561 0.9081 a 11.89 11.89 0 0 0 -6.2738 6.2709 a 11.4566 11.4566 0 0 0 -0.9135 4.5732 a 11.2871 11.2871 0 0 0 0.703 3.9416 a 11.9349 11.9349 0 0 0 2.0323 3.5006 a 13.5349 13.5349 0 0 0 3.1956 2.7835 q 1.446 0.9079 2.42 1.6384 a 8.7962 8.7962 0 0 1 1.5912 1.5 a 5.9225 5.9225 0 0 1 0.9731 1.81 q 0.25 0.7236 0.8285 0.7238 t 0.8417 -0.7238 a 5.9779 5.9779 0 0 1 0.967 -1.81 a 8.4991 8.4991 0 0 1 1.59 -1.5 q 0.98 -0.73 2.4268 -1.6384 a 13.7877 13.7877 0 0 0 3.19 -2.7835 a 11.8367 11.8367 0 0 0 2.0373 -3.5006 a 11.263 11.263 0 0 0 0.7041 -3.9416 a 11.44 11.44 0 0 0 -0.9145 -4.5732 a 11.8867 11.8867 0 0 0 -6.2717 -6.2709 a 11.5044 11.5044 0 0 0 -4.57 -0.9081 Z m 3.8566 9.71 a 2.3254 2.3254 0 0 0 -1.078 1.94 a 2.2152 2.2152 0 0 0 1.353 2.0506 a 4.7326 4.7326 0 0 1 -0.693 1.4443 c -0.429 0.6174 -0.902 1.2458 -1.584 1.2458 c -0.693 0 -0.858 -0.4079 -1.661 -0.4079 c -0.77 0 -1.045 0.4189 -1.672 0.4189 c -0.638 0 -1.078 -0.5733 -1.584 -1.29 a 6.3114 6.3114 0 0 1 -1.056 -3.3625 a 2.7185 2.7185 0 0 1 2.541 -3.0208 c 0.682 0 1.232 0.441 1.65 0.441 c 0.407 0 1.023 -0.4631 1.782 -0.4631 a 2.3483 2.3483 0 0 1 2.002 1.0036 Z m -3.729 -1.1135 c -0.055 0 -0.099 -0.0111 -0.143 -0.0111 c 0 -0.033 -0.011 -0.11 -0.011 -0.1874 a 2.26 2.26 0 0 1 0.561 -1.3781 a 2.19 2.19 0 0 1 1.485 -0.7717 a 1.0735 1.0735 0 0 1 0.011 0.1984 a 2.3284 2.3284 0 0 1 -0.528 1.4222 a 1.9664 1.9664 0 0 1 -1.375 0.7276 Z");
+}
+
+.rs-shop-neareststore {
+    display: flex;
+    flex-direction: row;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    line-height: 1.4285914286;
+    padding-bottom: 10px;
+    -webkit-text-size-adjust: none;
+}
+
+a {
+    color: var(--sk-body-link-color, #06c);
+    letter-spacing: inherit;
+    text-decoration: none;
+}
+
+.rs-shop-container .rs-shop-chatstore-section {
+    inset-inline-end: 0;
+    position: absolute;
+}
+
+.rf-shop-chat {
+    display: flex;
+    padding-top: 90px; 
+    padding-right: 80px;
+    flex-direction: column;
+}
+
+.box {
+    display: flex;
+    padding-left: 50px;
+
+}
+
+.products {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-name {
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    text-decoration: none;
+    color: #000;
+}
